@@ -1,0 +1,31 @@
+.login{
+    text-align: center;
+    padding: 10px;
+}
+.login > img {
+    height: 100px;
+}
+.login > p {
+    color: white;
+}
+.login > h3 {
+    color: #4267B2;
+    font-size: 30px;
+}
+.login > input {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.login > button {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.pregister{
+    color: #4267B2;
+    text-decoration: none;
+}

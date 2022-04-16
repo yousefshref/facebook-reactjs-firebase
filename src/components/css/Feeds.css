@@ -1,0 +1,182 @@
+.feeds{
+    background-color: rgb(36,37,38);
+    width: 40%;
+    margin: auto;
+    margin-top: -200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.wts{
+    display: flex;
+}
+
+.wts > input {
+    background-color: rgb(78,79,80);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 90%;
+    color: white;
+}
+.wts1In {
+    background-color: rgb(78,79,80);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.wts1{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+}
+.ss {
+    width: 70px;
+    text-align: right;
+    margin-right: 5px;
+}
+.wts1{
+    display: flex;
+}
+.hr{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.feeds__down {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.feeds__down__item {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: aliceblue;
+}
+.feeds__down__item:hover {
+    background-color: rgb(47,48,49);
+    border-radius: 10px;
+}
+.feeds__down__item > p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.feeds__down__item > i {
+    margin-left: auto;
+}
+.red{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: red;
+}
+.green{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: green;
+}
+.yellow{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: yellow;
+}
+.room{
+    background-color: rgb(36,37,38);
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.room__create{
+    display: flex;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    width: 25%;
+    cursor: pointer;
+    border: 1px solid rgba(11, 181, 233, 0.178) !important;
+}
+.room__create > i{
+    font-size: 27px;
+    color: rgb(188,78,183);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.room__create > p {
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+    .feeds{
+        width: 96%;
+        margin-bottom: auto;
+        margin-top: 30px;
+        /* background-color: aqua; */
+    }
+    .room__create {
+        width: 36%;
+    }
+    .room{
+        width: 96%;
+    }
+    .feeds__down__item > p {
+        display: none;
+    }
+    .feeds__down__item > i {
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px){
+    .feeds{
+        width: 96%;
+        margin-bottom: auto;
+        margin-top: 30px;
+    }
+    .room__create {
+        width: 36%;
+    }
+    .room{
+        width: 96%;
+    }
+    .feeds__down__item > p {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 950px){
+    .feeds{
+        width: 70%;
+        margin-bottom: auto;
+        margin-left: 240px;
+    }
+    .room__create {
+        width: 36%;
+    }
+    .room{
+        width: 70%;
+        margin-bottom: auto;
+        margin-left: 240px;
+    }
+}

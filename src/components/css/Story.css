@@ -1,0 +1,43 @@
+.story{
+    display: flex;
+    margin-top: 83px;
+    /* width: 100%; */
+    overflow-y: auto;
+    /* overflow: hidden; */
+    overflow-y: hidden;
+    height: 260px;
+}
+.all__stories{
+    display: flex;
+}
+
+.story__user > img{
+    width: 130px;
+    height: 230px;
+    border-radius: 20px;
+}
+.story__user > p {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: auto;
+    margin-top: -30px;
+}
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+    .story{
+        width: auto;
+    }
+    .story__user > img {
+        height: 200px;
+        width: 100px;
+    }
+    .storyitems__all > p {
+        color: white;
+        width: 100%;
+        font-size: 13px;
+        text-align: center;
+        margin-top: -35px;
+    }
+    .all__stories, .story__user{
+        padding-top: 20px;
+    }
+}

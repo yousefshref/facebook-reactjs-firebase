@@ -1,0 +1,20 @@
+.sidebare__item{
+    display: flex;
+    color: white;
+    padding: 5px;
+    transition: 0.5s;
+}
+.sidebare__item:hover{
+    background-color: rgb(47,48,49);
+    border-radius: 40px;
+}
+.sidebare__item > img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8px;
+}
+.sidebare__item > i {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 8px;
+}
